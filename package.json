@@ -1,0 +1,21 @@
+{
+  "name": "grokkingalgorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "author": "Pradeep Samuel Daniel <pradeep.samuel90@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "folktale": "^3.0.0-alpha5"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  }
+}
